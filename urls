@@ -1,0 +1,7 @@
+https://spot-bid-advisor.s3.amazonaws.com/spot-advisor-data.json
+https://website.spot.ec2.aws.a2z.com/spot.js
+https://calculator.aws/pricing/1.0/ec2/region/us-east-2/ondemand/linux/index.json
+https://calculator.aws/pricing/1.0/ec2/region/{region}/ondemand/{os}/index.json
+https://website.spot.ec2.aws.a2z.com/spot.js?callback=callback&_=1609078712734
+https://calculator.aws/pricing/1.0/ec2/region/us-east-2/ebs/index.json
+https://calculator.aws/pricing/1.0/ec2/region/{region}/ebs/index.json
