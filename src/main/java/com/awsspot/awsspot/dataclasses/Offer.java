@@ -1,4 +1,5 @@
-package com.awsspot.awsspot.DTO;
+package com.awsspot.awsspot.dataclasses;
+
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -7,9 +8,9 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class OfferDTO {
+public class Offer {
     private String type;
-    private String OS;
+    private OS OS;
     private Double onDemandPrice;
     private Double historicSpotPrice;
     private Double totalEstimatedPrice;
@@ -18,4 +19,8 @@ public class OfferDTO {
     private Double network;
     private Double storage;
     private String storageType;
+    private Double interruptionFrequency;
+    private Double currentSpotPrice;
+    private String region;
+    private TypePurpose typePurpose;
 }

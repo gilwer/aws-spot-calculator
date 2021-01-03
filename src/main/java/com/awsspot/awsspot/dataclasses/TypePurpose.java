@@ -1,0 +1,5 @@
+package com.awsspot.awsspot.dataclasses;
+
+public enum TypePurpose {
+    GENERAL_PURPOSE,COMPUTE_OPTIMIZED,MEMORY_OPTIMIZED,ACCELERATED_COMPUTING,STORAGE_OPTIMIZED,ALL
+}

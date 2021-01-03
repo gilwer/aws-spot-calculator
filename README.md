@@ -1,14 +1,11 @@
 # aws-spot-calculator
+https://docs.google.com/document/d/1YED-mUN6uNbClHCi6DbKl0HOe4LwLfZrBdbs8u3WhoM/edit?usp=sharing
 ## spotOffers:
 an api for getting spot offers meeting criteria for different interruption behaviors
 ### parameters:
-* minCpu - min number of cpus 
 * maxCpu - max number of cpus 
-* minMemory - min memory size (GB)
 * maxMemory - max memory size (GB)
-* minStorage - min storage size (GB)
 * maxStorage - max storage size (GB)
-* minNetwork - network traffic size (GBs)
 * maxNetwork - network traffic size (GBs)
 * typeCategory - category of the instance type (General Purpose,Compute Optimized, Memory Optimized,Accelerated Computing,Storage Optimized)
 * OS - instance operating system (Linux,Windows)
